@@ -24,7 +24,7 @@ namespace Quiz_7_10_William_O_Sullivan_Problem_4
             string[] third = four;
 
             Console.WriteLine("Enter the first digit: ");
-            int input1 = int.Parese(Console.ReadLine());
+            int input1 = int.Parse(Console.ReadLine());
 
             switch (input1)
             {
