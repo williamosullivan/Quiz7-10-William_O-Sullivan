@@ -1,0 +1,40 @@
+Quiz-7-10-William O'Sullivan.txt
+
+1. Invalid Return type. Void will not return an integer.
+
+2. Nothing. It will not compile. It has invalid arguments. Needs multiple strings or an array.
+
+3.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Quiz7_10_William_O_Sullivan
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random rand = new Random();
+            int number = rand.Next(2147483647);
+
+            EvenOrOdd(number);
+            Console.ReadLine();
+        }
+
+        private static void EvenOrOdd(int number)
+        {
+            Console.WriteLine(number);
+            Console.ReadLine();
+
+            if (number % 2 == 0)
+                Console.WriteLine("Even");
+            else
+                Console.WriteLine("Odd");
+        }
+    }
+}
+
+4.
